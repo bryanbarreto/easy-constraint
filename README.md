@@ -1,6 +1,6 @@
 # EasyConstraint
 
-EasyAleert is a simple Swift library for show native Alerts.
+EasyConstraint is a simple Swift library to add constraint to UI elements.
 
 ## Installation
 
