@@ -71,4 +71,8 @@ public extension UIView {
         self.centerY(view, padding: paddingY)
     }
     
+    func fill(in view: UIView){
+        self.anchor(top: view.topAnchor, left: view.leftAnchor, right: view.rightAnchor, bottom: view.bottomAnchor)
+    }
+    
 }
