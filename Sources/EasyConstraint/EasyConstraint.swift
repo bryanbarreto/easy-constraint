@@ -61,4 +61,9 @@ public extension UIView {
         self.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: padding).isActive = true
     }
     
+    func centerY(_ view: UIView, padding: CGFloat = 0){
+        self.translatesAutoresizingMaskIntoConstraints = false
+        self.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: padding).isActive = true
+    }
+    
 }
