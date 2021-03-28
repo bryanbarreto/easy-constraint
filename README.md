@@ -32,7 +32,8 @@ self.view.addSubview(self.button)
 /* Agora basta escolher a melhor função para colocar constraints no seu elemento: */
 
 /*
-    anchor: É possível passar constraints para os 4 lados, padding para os 4 lados, bem como width e height do elemento  
+    anchor: É possível passar constraints para os 4 lados, 
+    padding para os 4 lados, bem como width e height do elemento  
 */
 self.button.anchor(top: self.view.topAnchor)
 
