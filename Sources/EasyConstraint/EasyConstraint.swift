@@ -1,3 +1,2 @@
-struct EasyConstraint {
-    var text = "Hello, World!"
+private struct EasyConstraint {
 }
